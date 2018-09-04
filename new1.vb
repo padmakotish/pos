@@ -2,7 +2,7 @@ Module mod1
 Sub Main()
 Dim number as integer
 Console.Writeline("Enter a Number" )
-Console.Readline()
+    Number = Console.Readline()
 if number < 0 then
 Console.Writeline("The number is negative")
 Else if number > 0 then
